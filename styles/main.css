@@ -6,6 +6,11 @@
   --white: #fff;
   --background-red: #F84646;
   --background-white: #fff;
+  --pink-circle: #FF5391;
+  --purple-circle: #7553FF;
+  --light-blue-circle: #53C1FF;
+  --red-circle: #FF5353;
+  --yellow-circle: #FFBA53;
   --background-gray: #F4F5F7;
 }
 
@@ -162,8 +167,81 @@
 
 /* Key start */
 
+.key-section {
+  padding: 120px 0;
+}
 
+.key-header h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 30px;
+}
 
+.key-section p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--black);
+  margin-bottom: 90px;
+}
+
+.key-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+
+.key-main-box {
+  width: 298px;
+  text-align: center;
+}
+
+.key-main-box .key-main-box-image {
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.key-main-box .key-main-box-image img {
+  width: 76px;
+  height: 76px;
+}
+
+.key-main-box .key-main-box-image::before {
+  position: absolute;
+  content: '';
+  width: 45px;
+  height: 45px;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  background: var(--pink-circle);
+  z-index: -1;
+}
+
+.key-main-box h1 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 10px;
+}
+
+.key-main-box p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--black);
+}
 
 /* Key end */
 
@@ -192,7 +270,6 @@
 
 .kalit-section-child {
   display: flex;
-  width: 1197px;
   height: 1080px;
   margin-top: 160px;
   margin-bottom: 160px;
@@ -201,7 +278,6 @@
 
 .kalit-child-left {
   width: 50%;
-  position: relative;
 }
 
 .kalit-child-right {
@@ -214,7 +290,6 @@
   font-size: 64px;
   line-height: 76px;
   color: #2E2E2E;
-
 }
 
 .kalit-section-child .key-right-h1 {
@@ -227,36 +302,27 @@
 
 
 .kalit-section-child .kalit-child-left .btn {
-  position: absolute;
-  left: 0;
-  top: 440px;
+  margin-top: 80px;
 }
 
 
 
 .kalit-section-child .kalit-child-left img {
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  margin-right: 50px;
+  margin-top: 125px;
   width: 504px;
   height: 480px;
 }
 
-.kalit-section-child .kalit-child-right {
-  position: relative;
-}
 
 .kalit-section-child .kalit-child-right img {
-  position: absolute;
-  top: 0;
-  right: 0;
+  margin-left: 93px;
   width: 504px;
   height: 480px;
 }
 
 .kalit-section-child .kalit-child-right h1 {
-  position: absolute;
-  left: 0;
+  margin-top: 100px;
   top: 580px;
   font-style: normal;
   font-weight: 700;
@@ -266,13 +332,13 @@
 }
 
 .kalit-section-child .kalit-child-right p {
-  position: absolute;
+  margin-top: 40px;
   left: 0;
   bottom: 110px;
 }
 
 .kalit-section-child .kalit-child-right .btn {
-  position: absolute;
+  margin-top: 100px;
   left: 0;
   bottom: 0;
 }
@@ -282,9 +348,9 @@
 
 
 .kalit-section-child .parag-left {
-  position: absolute;
   left: 0;
   top: 200px;
+  margin-top: 40px;
 }
 
 .kalit-section-child p {
@@ -300,7 +366,6 @@
 }
 
 
-@media screen and (max-width: 480px) {}
 
 /* Information end */
 
@@ -316,22 +381,25 @@
 
 
 /* Referans start */
-.referans-section{
+.referans-section {
   background: #F4F5F7;
   padding: 59px 0;
 }
-.referans-section .container{
+
+.referans-section .container {
   text-align: center;
 }
-.referans-section .container h1{
+
+.referans-section .container h1 {
   font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 64px;
-    color: var(--black);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: var(--black);
 }
-.referans-section .container p{
+
+.referans-section .container p {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 500;
@@ -339,7 +407,8 @@
   line-height: 32px;
   color: var(--black);
 }
-.referans-section .container .referans-logoes{
+
+.referans-section .container .referans-logoes {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -347,13 +416,15 @@
   gap: 24px;
   margin-top: 48px;
 }
-.referans-logoes .referans-logo{
+
+.referans-logoes .referans-logo {
   display: flex;
   flex-direction: column;
   gap: 24px;
   flex-wrap: wrap;
 }
-.referans-logo a{
+
+.referans-logo a {
   background: var(--background-white);
   box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
   border-radius: 16px;
@@ -364,10 +435,12 @@
   justify-content: center;
   padding: 15px 20px;
 }
-.referans-logoes .referans-logo a img{
+
+.referans-logoes .referans-logo a img {
   width: 100%;
 }
-.referans-logoes .referans-logo a{
+
+.referans-logoes .referans-logo a {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -377,10 +450,12 @@
   align-items: center;
   gap: 10px;
 }
-.referans-logoes .referans-logo a i{
+
+.referans-logoes .referans-logo a i {
   font-size: 15px;
   margin-top: 3px;
 }
+
 /* Referans end */
 
 
@@ -407,5 +482,47 @@
 
 
 /* Footer start */
+
+
+.footer-box {
+  display: flex;
+  gap: 100px;
+  padding-top: 80px;
+}
+
+.footer-section {
+  background-color: var(--background-red);
+}
+
+
+.footer-section .container h4 a {
+  color: var(--background-white);
+  display: inline-flex;
+  padding-bottom: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-section .container p a {
+  color: var(--footer-white);
+  padding-bottom: 24px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.footer-section .container .footer-bottom-box {
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section .container .footer-bottom-box .footer-right-logo {
+  display: flex;
+  gap: 25px;
+
+}
 
 /* Footer end */
