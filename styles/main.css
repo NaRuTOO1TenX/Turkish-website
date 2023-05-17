@@ -225,6 +225,12 @@
   z-index: -1;
 }
 
+.key-main-box .key-main-box-image::before {
+  right: 0;
+  top: 0;
+  background: var(--pink-circle);
+}
+
 .key-main-box h1 {
   font-weight: 800;
   font-size: 24px;
