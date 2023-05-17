@@ -594,4 +594,19 @@ color:var(--white)
     gap: 25px;
     
 }
+
+@media screen and (max-width: 1240px) {
+  .container {
+    padding: 0 40px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0 20px !important;
+  }
+}
+
+
+
 /* Footer end */
