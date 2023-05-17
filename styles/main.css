@@ -420,24 +420,26 @@ color:var(--white)
   transform: translateX(8px);
 }
 .referans-logo a:hover img{
-  width: 110%;
+  width: 100%;
 }
-@media screen and (max-width: 1040px) {
+@media (min-width:769px) and (max-width: 1024px) {
   .container {
     padding: 0 40px !important;
   }
   .referans-section .container .referans-logoes{
-    flex-direction: column;
+    gap: 10px;
   }
-  .referans-section .referans-logoes .referans-logo:nth-child(4){
-    display: none;
+  .referans-section .container .referans-logo{
+    gap: 10px;
   }
-    .referans-section .referans-logoes .referans-logo:nth-child(5) {
-      display: none;
-    }
+  .referans-section .referans-logo a{
+    width: 130px;
+    height: 66px;
+    font-size: 10px;
+  }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width:769px) and (min-width: 480px) {
   .container {
     padding: 0 20px !important;
   }
@@ -451,6 +453,18 @@ color:var(--white)
     font-size: 14px;
     line-height: 32px;
     margin-top: 14px;
+  }
+    .referans-section .referans-logoes .referans-logo:nth-child(4) {
+      display: none;
+    }
+  
+    .referans-section .referans-logoes .referans-logo:nth-child(5) {
+      display: none;
+    }
+    .referans-section .container .referans-logoes{
+    flex-direction: column;
+
+    /* gap: 10px; */
   }
 }
 /* Referans end */
