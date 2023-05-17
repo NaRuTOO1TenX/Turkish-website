@@ -6,6 +6,7 @@
   --white: #fff;
   --background-red: #F84646;
   --background-white: #fff;
+  --footer-white: #E6E6E6;
 }
 
 * {
@@ -113,7 +114,7 @@
 /* Referans end */
 
 
-
+ 
 
 
 /**********************************************************/
@@ -137,4 +138,45 @@
 
 /* Footer start */
 
+
+.footer-box{
+  display: flex;
+  gap: 100px;
+  padding-top: 80px;
+}
+
+.footer-section {
+  background-color: var(--background-red);
+}
+
+
+.footer-section .container h4 a{
+  color: var(--background-white);
+  display: inline-flex;
+  padding-bottom: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}  
+
+.footer-section .container p a{
+  color: var(--footer-white);
+  padding-bottom: 24px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}  
+
+.footer-section .container .footer-bottom-box{
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section .container .footer-bottom-box .footer-right-logo{
+    display: flex;
+    gap: 25px;
+    
+}
 /* Footer end */
