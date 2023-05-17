@@ -228,7 +228,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 24px;
   margin-top: 48px;
 }
@@ -236,7 +235,6 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  flex-wrap: wrap;
 }
 .referans-logo a{
   background: var(--background-white);
@@ -250,7 +248,8 @@
   padding: 15px 20px;
 }
 .referans-logoes .referans-logo a img{
-  width: 100%;
+  width: 90%;
+  transition: all 0.4s ease;
 }
 .referans-logoes .referans-logo a{
   font-style: normal;
@@ -265,6 +264,44 @@
 .referans-logoes .referans-logo a i{
   font-size: 15px;
   margin-top: 3px;
+  transition: all 0.4s ease;
+}
+.referans-logoes .referans-logo a:hover  i{
+  transform: translateX(8px);
+}
+.referans-logo a:hover img{
+  width: 110%;
+}
+@media screen and (max-width: 1040px) {
+  .container {
+    padding: 0 40px !important;
+  }
+  .referans-section .container .referans-logoes{
+    flex-direction: column;
+  }
+  .referans-section .referans-logoes .referans-logo:nth-child(4){
+    display: none;
+  }
+    .referans-section .referans-logoes .referans-logo:nth-child(5) {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0 20px !important;
+  }
+  .referans-section .container h1{
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+  }
+  .referans-section .container p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    margin-top: 14px;
+  }
 }
 /* Referans end */
 
