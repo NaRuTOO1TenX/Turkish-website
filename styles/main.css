@@ -6,6 +6,11 @@
   --white: #fff;
   --background-red: #F84646;
   --background-white: #fff;
+  --pink-circle: #FF5391;
+  --purple-circle: #7553FF;
+  --light-blue-circle: #53C1FF;
+  --red-circle: #FF5353;
+  --yellow-circle: #FFBA53;
 }
 
 * {
@@ -69,6 +74,82 @@
 
 
 /* Key start */
+
+.key-section {
+  padding: 120px 0;
+}
+
+.key-header h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 30px;
+}
+
+.key-section p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--black);
+  margin-bottom: 90px;
+}
+
+.key-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+
+.key-main-box {
+   width: 298px;
+   text-align: center;
+}
+
+.key-main-box .key-main-box-image {
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.key-main-box .key-main-box-image img {
+  width: 76px;
+  height: 76px;
+}
+
+.key-main-box .key-main-box-image::before {
+  position: absolute;
+  content: '';
+  width: 45px;
+  height: 45px;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  background: var(--pink-circle);
+  z-index: -1;
+}
+
+.key-main-box h1 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 10px;
+}
+
+.key-main-box p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--black);
+}
 
 /* Key end */
 
