@@ -698,8 +698,8 @@ line-height: 47px;
   font-weight: 800;
   font-size: 48px;
   line-height: 32px;
-
-  color: #000000;
+  margin-bottom: 20px;
+  color: var(--black);
 }
 
 .connection-section .container .cozum{
@@ -708,8 +708,8 @@ line-height: 47px;
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
-
-  color: #000000;
+  margin-bottom: 30px;
+  color: var(--black);
 }
 
 
