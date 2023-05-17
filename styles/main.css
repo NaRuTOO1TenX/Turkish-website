@@ -302,6 +302,63 @@ color:var(--white)
 }
 
 
+@media screen and (max-width: 1240px) {
+  .container {
+    padding: 0 40px !important;
+  }
+  .test-section-text1{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .test-section-text img{
+    width: 31px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0 20px !important;
+  }
+  .test-section-name h1{ 
+    width: 335px;
+font-weight: 800;
+font-size: 36px;
+line-height: 47px;
+  }
+  .test-section-name p{
+    font-size: 14px;
+    line-height: 32px;
+  }
+  .test-section-footer{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  .test-section-text1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .test-section-text img{
+    margin-left: 50px;
+    margin-right: 53px;
+    width: 34px;
+  }
+}
+  @media screen and (max-width: 778px) {
+    .container {
+      padding: 0 20px !important;
+    }
+    .test-section-footer{
+      display: flex;
+      align-items: center;
+      padding-bottom: 50px;
+      flex-wrap: wrap;
+    }
+}
+
+
 /* Test end */
 
 
@@ -563,7 +620,7 @@ color:var(--white)
 }  
 
 .footer-section .container p a{
-  color: var(--background-gray)
+  color: var(--background-gray);
   padding-bottom: 24px;
   display: inline-block;
   font-weight: 400;
