@@ -396,13 +396,25 @@
 }  
 
 .footer-section .container p a{
-  color: var(--footer-white);
+  color: var(--background-gray)
   padding-bottom: 24px;
   display: inline-block;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
 }  
+
+.footer-section .container .footer-box p a{
+  color: var(--background-gray);
+}
+
+.footer-section .container .footer-bottom-box .footer-copyright p a{
+  color: var(--background-gray);
+}
+
+.footer-section .container .footer-bottom-box {
+  padding-top: 50px;
+}
 
 .footer-section .container .footer-bottom-box{
   display: inline-block;
