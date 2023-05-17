@@ -411,8 +411,7 @@ color:var(--white)
 
 
 .connection-section .container .group7 {
-  width: 700px;
-  height: 400px;
+  height: 450px;
   text-align: center;
 
 }
@@ -424,6 +423,9 @@ color:var(--white)
 
 .connection-section .container .user{
   position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 
@@ -435,7 +437,7 @@ color:var(--white)
 
 .connection-section .container .connection-user-alana{
   position: absolute;
-  left: 340px;
+  left: 590px;
   top: 2px;
   width: 61px;
   height: 61px;
@@ -470,7 +472,7 @@ color:var(--white)
   line-height: 20px;
   background: var(--background-red);
   border-radius: 5px;
-  padding: 25px 40px;
+  padding: 10px 20px;
   transition: 0.4s all ease;
   
   color: #FFFFFF;
@@ -480,9 +482,8 @@ color:var(--white)
 
 .connection-section .container .bize-ulasin-button:hover{
 
-  background: #ee5555;
+  background: #b82d2d;
 
-  box-shadow: 0 0 20px rgb(128, 68, 0);
 
 }
 
@@ -505,6 +506,7 @@ color:var(--white)
 
 .connection-section .container .bize-ulasin-button:active .button-text-2{
   display: inline;
+  font-size: 24px;
 }
 
 
@@ -512,19 +514,12 @@ color:var(--white)
   font-weight: 700;
   font-size: 24px;
   line-height: 20px;
-  /* background: var(--background-red); */
-  background-color: yellowgreen;
+  background-color: rgb(219, 13, 13);
   border-radius: 5px;
-  padding: 25px 40px;
+  padding: 10px 20px;
   transition: 0.4s all ease;
   
   color: #FFFFFF;
-}
-
-.connection-section .container .bize-ulasin-button:active .bize-ulasin-button:hover{
-  background: yellowgreen;
-
-  box-shadow: 0 0 20px yellowgreen;
 }
 
 
