@@ -5,6 +5,7 @@
   --black: #000;
   --white: #fff;
   --background-red: #F84646;
+  --btn-hover: #cf3232;
   --background-white: #fff;
   --pink-circle: #FF5391;
   --purple-circle: #7553FF;
@@ -449,6 +450,8 @@ line-height: 47px;
 
 .kalit-section-child .kalit-child-left .btn {
   margin-top: 80px;
+  padding: 12px 58px;
+  cursor: pointer;  
 }
 
 
@@ -479,14 +482,12 @@ line-height: 47px;
 
 .kalit-section-child .kalit-child-right p {
   margin-top: 40px;
-  left: 0;
-  bottom: 110px;
 }
 
 .kalit-section-child .kalit-child-right .btn {
   margin-top: 100px;
-  left: 0;
-  bottom: 0;
+  padding: 12px 58px;
+  cursor: pointer;
 }
 
 
@@ -494,8 +495,6 @@ line-height: 47px;
 
 
 .kalit-section-child .parag-left {
-  left: 0;
-  top: 200px;
   margin-top: 40px;
 }
 
@@ -653,41 +652,45 @@ line-height: 47px;
 
 /* Connection start */
 
+.connection-section {
+  padding: 160px 0;
+}
 
-.connection-section .container .group7 {
-  height: 450px;
+.connection-section .container {
+  display: flex;
+  justify-content: center;
   text-align: center;
-
 }
-
-.connection-section .container .group7 *{
-  margin-top: 30px;
-}
-
 
 .connection-section .container .user{
-  position: relative;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 10px;
 }
 
+.connection-section .container .user {
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.connection-section .container .user::before {
+  position: absolute;
+  content: '';
+  width: 61px;
+  height: 61px;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  background: var(--background-red);
+  z-index: -1;
+}
 
 .connection-section .container .connection-user{
   width: 120px;
   height: 120px;
 }
-
-
-.connection-section .container .connection-user-alana{
-  position: absolute;
-  left: 590px;
-  top: 2px;
-  width: 61px;
-  height: 61px;
-  opacity: .6;
-}
-
 
 .connection-section .container .bize-ulasin{
   font-family: 'Manrope';
@@ -695,8 +698,8 @@ line-height: 47px;
   font-weight: 800;
   font-size: 48px;
   line-height: 32px;
-
-  color: #000000;
+  margin-bottom: 20px;
+  color: var(--black);
 }
 
 .connection-section .container .cozum{
@@ -705,8 +708,8 @@ line-height: 47px;
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
-
-  color: #000000;
+  margin-bottom: 30px;
+  color: var(--black);
 }
 
 
@@ -715,57 +718,21 @@ line-height: 47px;
   font-size: 24px;
   line-height: 20px;
   background: var(--background-red);
-  border-radius: 5px;
-  padding: 10px 20px;
+  border-radius: 8px;
+  padding: 25px 40px;
   transition: 0.4s all ease;
-  
-  color: #FFFFFF;
+  cursor: pointer;
+  color: var(--white);
+  border: none;
 }
-
-
 
 .connection-section .container .bize-ulasin-button:hover{
-
-  background: #b82d2d;
-
-
+  background: var(--btn-hover);
 }
-
-
-.connection-section .container .bize-ulasin-button .button-text-2{
-  display: none;
-}
-
-
-.connection-section .container .bize-ulasin-button .button-text-1{
-  display: inline;
-}
-
-
-
-.connection-section .container .bize-ulasin-button:active .button-text-1{
-  display: none;
-}
-
-
-.connection-section .container .bize-ulasin-button:active .button-text-2{
-  display: inline;
-  font-size: 24px;
-}
-
 
 .connection-section .container .bize-ulasin-button:active{
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 20px;
-  background-color: rgb(219, 13, 13);
-  border-radius: 5px;
-  padding: 10px 20px;
-  transition: 0.4s all ease;
-  
-  color: #FFFFFF;
+  transform: scale(0.9);
 }
-
 
 /* Connection end */
 
@@ -811,6 +778,10 @@ line-height: 47px;
 
 .footer-section .container .footer-box p a{
   color: var(--background-gray);
+}
+
+.footer-section .container .footer-box p a:hover{
+  color: var(--black);
 }
 
 .footer-section .container .footer-bottom-box .footer-copyright p a{
