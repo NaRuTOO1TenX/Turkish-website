@@ -69,6 +69,119 @@
 
 
 /* Key start */
+.kalit-section-child {
+  display: flex;
+  width: 1197px;
+  height: 1080px;
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+
+.kalit-child-left {
+  width: 50%;
+  position: relative;
+}
+
+.kalit-child-right {
+  width: 50%;
+}
+
+.kalit-section-child .key-left-h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  color: #2E2E2E;
+
+}
+
+.kalit-section-child .key-right-h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  color: #2E2E2E;
+}
+
+
+.kalit-section-child .kalit-child-left .btn {
+  position: absolute;
+  left: 0;
+  top: 440px;
+}
+
+
+
+.kalit-section-child .kalit-child-left img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 504px;
+  height: 480px;
+}
+
+.kalit-section-child .kalit-child-right {
+  position: relative;
+}
+
+.kalit-section-child .kalit-child-right img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 504px;
+  height: 480px;
+}
+
+.kalit-section-child .kalit-child-right h1 {
+  position: absolute;
+  left: 0;
+  top: 580px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  color: #2E2E2E;
+}
+
+.kalit-section-child .kalit-child-right p {
+  position: absolute;
+  left: 0;
+  bottom: 110px;
+}
+
+.kalit-section-child .kalit-child-right .btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
+
+
+
+.kalit-section-child .parag-left {
+  position: absolute;
+  left: 0;
+  top: 200px;
+}
+
+.kalit-section-child p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #808080;
+}
+
+.kalit-section-child .btn {
+  border: 0;
+}
+
+
+@media screen and (max-width: 480px) {}
+
+
 
 /* Key end */
 
