@@ -1,0 +1,140 @@
+/* Universal codes start */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap');
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --background-red: #F84646;
+  --background-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Manrope';
+  font-style: normal;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: var(--background-red);
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: 0.4s all ease;
+}
+
+.btn:hover {
+  background: #ee5555;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Universal codes end*/
+
+
+
+
+/**********************************************************/
+
+
+
+
+
+
+/* Header start */
+
+/* Header end */
+
+
+
+
+
+/**********************************************************/
+
+
+
+
+
+
+/* Key start */
+
+/* Key end */
+
+
+
+
+
+/**********************************************************/
+
+
+/* Test start */
+
+/* Test end */
+
+
+
+
+
+/**********************************************************/
+
+
+
+
+
+/* Information start */
+
+/* Information end */
+
+
+
+
+
+/**********************************************************/
+
+
+
+
+
+
+/* Referans start */
+
+/* Referans end */
+
+
+
+
+
+/**********************************************************/
+
+
+
+
+
+
+/* Connection start */
+
+/* Connection end */
+
+
+
+
+
+/**********************************************************/
+
+
+
+/* Footer start */
+
+/* Footer end */
