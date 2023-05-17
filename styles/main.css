@@ -360,11 +360,11 @@ line-height: 47px;
     font-size: 18px;
     line-height: 25px;
     text-align: center;
+    width: 157px;
+    flex-wrap: wrap;
   }
   .test-section-text img{
-    margin-left: 50px;
-    margin-right: 53px;
-    width: 34px;
+    transform: rotate(90deg);
   }
 }
   @media screen and (max-width: 778px) {
