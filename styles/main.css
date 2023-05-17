@@ -80,6 +80,53 @@
 
 
 /* Test start */
+.test-section{
+  /* background: var(--background-red); */
+  background-image:  url("./../images/image\ 1.png") ,linear-gradient(#F84646, #F84646);
+}
+.test-section-name h1{ 
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  font-feature-settings: 'liga' off;
+  color:var(--white);
+  margin: 0 auto;
+  padding-top: 68px;
+}
+.test-section-name p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  font-feature-settings: 'liga' off;
+  color: var(--white);
+  margin-top: 8px;
+  margin-bottom: 68px;
+}
+.test-section-footer{
+  display: flex;
+  align-items: center;
+}
+.test-section-text1{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 31px;
+font-feature-settings: 'liga' off;
+color:var(--white)
+}
+.test-section-text img{
+  margin-left: 50px;
+  margin-right: 53px;
+  width: 34px;
+}
+
 
 /* Test end */
 
