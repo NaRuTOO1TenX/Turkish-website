@@ -255,7 +255,7 @@
 /* Test start */
 .test-section{
   /* background: var(--background-red); */
-  background-image:  url("./../images/image\ 1.png") ,linear-gradient(#F84646, #F84646);
+  background-image: url(../images/1.png) ;
 }
 .test-section-name h1{ 
   font-family: 'Manrope';
@@ -284,6 +284,7 @@
 .test-section-footer{
   display: flex;
   align-items: center;
+  padding-bottom: 50px;
 }
 .test-section-text1{
 font-family: 'Manrope';
@@ -557,13 +558,25 @@ color:var(--white)
 }  
 
 .footer-section .container p a{
-  color: var(--footer-white);
+  color: var(--background-gray)
   padding-bottom: 24px;
   display: inline-block;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
 }  
+
+.footer-section .container .footer-box p a{
+  color: var(--background-gray);
+}
+
+.footer-section .container .footer-bottom-box .footer-copyright p a{
+  color: var(--background-gray);
+}
+
+.footer-section .container .footer-bottom-box {
+  padding-top: 50px;
+}
 
 .footer-section .container .footer-bottom-box{
   display: inline-block;
