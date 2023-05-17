@@ -1,5 +1,9 @@
 /* Universal codes start */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap');
+
+@font-face {
+  font-family: 'Manrope';
+  src: url(../fonts/Manrope/Manrope-VariableFont_wght.ttf);
+}
 
 :root {
   --black: #000;
@@ -61,18 +65,6 @@
 }
 
 /* Universal codes end*/
-
-
-
-
-
-
-/**********************************************************/
-
-
-
-
-
 
 /* Header start */
 
@@ -154,17 +146,6 @@
 @media screen and (max-width: 480px) {}
 
 /* Header end */
-
-
-
-
-
-/**********************************************************/
-
-
-
-
-
 
 /* Key start */
 
@@ -287,18 +268,11 @@
 
 /* Key end */
 
-
-
-
-
-/**********************************************************/
-
-
 /* Test start */
 .test-section{
-  /* background: var(--background-red); */
   background-image: url(../images/1.png) ;
 }
+
 .test-section-name h1{ 
   font-family: 'Manrope';
   font-style: normal;
@@ -400,18 +374,7 @@ line-height: 47px;
     }
 }
 
-
 /* Test end */
-
-
-
-
-
-/**********************************************************/
-
-
-
-
 
 /* Information start */
 
@@ -447,14 +410,11 @@ line-height: 47px;
   color: #2E2E2E;
 }
 
-
 .kalit-section-child .kalit-child-left .btn {
   margin-top: 80px;
   padding: 12px 58px;
   cursor: pointer;  
 }
-
-
 
 .kalit-section-child .kalit-child-left img {
   margin-right: 50px;
@@ -462,7 +422,6 @@ line-height: 47px;
   width: 504px;
   height: 480px;
 }
-
 
 .kalit-section-child .kalit-child-right img {
   margin-left: 93px;
@@ -490,10 +449,6 @@ line-height: 47px;
   cursor: pointer;
 }
 
-
-
-
-
 .kalit-section-child .parag-left {
   margin-top: 40px;
 }
@@ -510,24 +465,11 @@ line-height: 47px;
   border: 0;
 }
 
-
-
 /* Information end */
-
-
-
-
-
-/**********************************************************/
-
-
-
-
-
 
 /* Referans start */
 .referans-section {
-  background: #F4F5F7;
+  background: var(--background-gray);
   padding: 59px 0;
 }
 
@@ -639,17 +581,6 @@ line-height: 47px;
 }
 /* Referans end */
 
-
-
-
-
-/**********************************************************/
-
-
-
-
-
-
 /* Connection start */
 
 .connection-section {
@@ -736,16 +667,7 @@ line-height: 47px;
 
 /* Connection end */
 
-
-
-
-
-/**********************************************************/
-
-
-
 /* Footer start */
-
 
 .footer-box {
   display: flex;
@@ -756,7 +678,6 @@ line-height: 47px;
 .footer-section {
   background-color: var(--background-red);
 }
-
 
 .footer-section .container h4 a {
   color: var(--background-white);
@@ -829,7 +750,7 @@ line-height: 47px;
   }  
   
   .footer-section .container p a{
-    color: var(--background-gray)
+    color: var(--background-gray);
     padding-bottom: 24px;
     display: inline-block;
     font-weight: 400;
@@ -858,7 +779,6 @@ line-height: 47px;
   .footer-section .container .footer-bottom-box .footer-right-logo{
       display: flex;
       gap: 25px;
-      
   }
   
 } 
@@ -889,12 +809,7 @@ line-height: 47px;
 
       .footer-bottom-box{
         flex-direction: column-reverse;
-
       }
   } 
-
-
-
-
 
 /* Footer end */
