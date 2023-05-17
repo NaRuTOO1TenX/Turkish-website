@@ -109,7 +109,71 @@
 
 
 /* Referans start */
-
+.referans-section{
+  background: #F4F5F7;
+  padding: 59px 0;
+}
+.referans-section .container{
+  text-align: center;
+}
+.referans-section .container h1{
+  font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--black);
+}
+.referans-section .container p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--black);
+}
+.referans-section .container .referans-logoes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 48px;
+}
+.referans-logoes .referans-logo{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.referans-logo a{
+  background: var(--background-white);
+  box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+  border-radius: 16px;
+  width: 170px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+}
+.referans-logoes .referans-logo a img{
+  width: 100%;
+}
+.referans-logoes .referans-logo a{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--background-red);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.referans-logoes .referans-logo a i{
+  font-size: 15px;
+  margin-top: 3px;
+}
 /* Referans end */
 
 
