@@ -410,6 +410,125 @@ color:var(--white)
 
 /* Connection start */
 
+
+.connection-section .container .group7 {
+  width: 700px;
+  height: 400px;
+  text-align: center;
+
+}
+
+.connection-section .container .group7 *{
+  margin-top: 30px;
+}
+
+
+.connection-section .container .user{
+  position: relative;
+}
+
+
+.connection-section .container .connection-user{
+  width: 120px;
+  height: 120px;
+}
+
+
+.connection-section .container .connection-user-alana{
+  position: absolute;
+  left: 340px;
+  top: 2px;
+  width: 61px;
+  height: 61px;
+  opacity: .6;
+}
+
+
+.connection-section .container .bize-ulasin{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 32px;
+
+  color: #000000;
+}
+
+.connection-section .container .cozum{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+
+  color: #000000;
+}
+
+
+.connection-section .container .bize-ulasin-button{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  background: var(--background-red);
+  border-radius: 5px;
+  padding: 25px 40px;
+  transition: 0.4s all ease;
+  
+  color: #FFFFFF;
+}
+
+
+
+.connection-section .container .bize-ulasin-button:hover{
+
+  background: #ee5555;
+
+  box-shadow: 0 0 20px rgb(128, 68, 0);
+
+}
+
+
+.connection-section .container .bize-ulasin-button .button-text-2{
+  display: none;
+}
+
+
+.connection-section .container .bize-ulasin-button .button-text-1{
+  display: inline;
+}
+
+
+
+.connection-section .container .bize-ulasin-button:active .button-text-1{
+  display: none;
+}
+
+
+.connection-section .container .bize-ulasin-button:active .button-text-2{
+  display: inline;
+}
+
+
+.connection-section .container .bize-ulasin-button:active{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  /* background: var(--background-red); */
+  background-color: yellowgreen;
+  border-radius: 5px;
+  padding: 25px 40px;
+  transition: 0.4s all ease;
+  
+  color: #FFFFFF;
+}
+
+.connection-section .container .bize-ulasin-button:active .bize-ulasin-button:hover{
+  background: yellowgreen;
+
+  box-shadow: 0 0 20px yellowgreen;
+}
+
+
 /* Connection end */
 
 
@@ -444,13 +563,25 @@ color:var(--white)
 }  
 
 .footer-section .container p a{
-  color: var(--footer-white);
+  color: var(--background-gray)
   padding-bottom: 24px;
   display: inline-block;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
 }  
+
+.footer-section .container .footer-box p a{
+  color: var(--background-gray);
+}
+
+.footer-section .container .footer-bottom-box .footer-copyright p a{
+  color: var(--background-gray);
+}
+
+.footer-section .container .footer-bottom-box {
+  padding-top: 50px;
+}
 
 .footer-section .container .footer-bottom-box{
   display: inline-block;
