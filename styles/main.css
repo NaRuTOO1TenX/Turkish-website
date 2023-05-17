@@ -601,7 +601,7 @@ color:var(--white)
 }  
 
 .footer-section .container p a{
-  color: var(--background-gray)
+  color: var(--background-gray);
   padding-bottom: 24px;
   display: inline-block;
   font-weight: 400;
